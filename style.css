@@ -1,0 +1,23 @@
+/* Doc 11 §11.2's UI chrome, so the site and the game are the same object.
+   `win` (#FFCE7A) is the colony's light and the only accent — amber dominates,
+   which is doc 11's rule for the game and is worth keeping here. */
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 0;
+  background: #141826; color: #EDF0F8;
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+h1 { font-size: 2rem; color: #FFCE7A; margin: 0 0 8px; letter-spacing: -0.01em; }
+h2 { font-size: 1.15rem; color: #57C293; margin: 40px 0 10px; }
+.sub { color: #6B7593; margin: 0 0 40px; font-size: 1.05rem; }
+a { color: #57C293; }
+p, li { color: #9AA5C0; }
+strong { color: #EDF0F8; }
+code { background: #1C2233; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+nav { border-bottom: 1px solid #2E3752; padding-bottom: 14px; margin-bottom: 36px; }
+nav a { margin-right: 20px; text-decoration: none; font-weight: 500; }
+footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid #2E3752; color: #6B7593; font-size: 0.88rem; }
+.card { background: #1C2233; border: 1px solid #2E3752; border-radius: 12px; padding: 18px 22px; margin: 14px 0; }
+.shot { display: block; width: 100%; border-radius: 14px; border: 1px solid #2E3752; margin: 18px 0; }
